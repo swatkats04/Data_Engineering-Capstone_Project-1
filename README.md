@@ -28,3 +28,11 @@ The dataset consists of six csv files and are uploaded in the [`Data`](/Data/) f
 - SparkSQL
 - SparkML
 
+
+## Pipeline Overview
+
+The data is initially present in the form csv, then imports the CSVs into a SQL database, and then analyze the data. The three phases include
+- Data Modeling
+- Data Engineering
+- Data Analysis   
+
