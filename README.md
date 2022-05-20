@@ -38,12 +38,15 @@ The data is initially present in the form csv, then imports the CSVs into a SQL 
 
 ### Data Modeling
 
-Looking at the CSVs data and build an ERD of the tables. The [`ER Diagram`](/ER Diagram/) folder contains the ER diagram and the schema code to build it.
+Looking at the CSVs data and build an ERD of the tables. The 'ER Diagram' folder contains the ER diagram and the schema code to build it.
 
 ### Data Engineering
 
 - Using the information given to create a table schema for each of the six CSV files. Specify the data types, primary keys, foreign keys, and other constraints.
 - Imports each CSV file into the corresponding SQL table.
 
+### Data Analysis
+
+After completing the database , do the required analysis and open the [`Program Files`](/Program Files/) and run the hive.hql to do the anlysis.
 
 
