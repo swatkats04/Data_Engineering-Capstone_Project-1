@@ -1,1 +1,38 @@
+##link to the website to create the ER Diagram
 You can create the ER diagram or data model for the employees data using the link https://www.quickdatabasediagrams.com/
+
+
+##code to create the different tables for the ER Diagram
+# titles table 
+title_id PK VARCHAR(10) 
+title VARCHAR(30)   
+
+# employees table
+emp_no PK INTEGER 
+emp_title_id VARCHAR(10) FK >- titles.title_id
+birth_date DATE 
+first_name VARCHAR(20
+sex VARCHAR(10)
+hire_date DATE
+no_of_projects INTEGER
+last_performance_rating VARCHAR(20) 
+left_status INT
+last_date DATE
+
+
+# salaries table
+emp_no INTEGER FK >- employees.emp_no
+salary INTEGER
+
+# departments table
+dept_no PK VARCHAR(10) 
+dept_name VARCHAR(30)
+
+
+# dept_managertable
+dept_no VARCHAR(10) FK >- departments.dept_no
+emp_no INTEGER FK >- employees.emp_no
+
+# dept_emp table
+emp_no INTEGER FK >- employees.emp_no
+dept_no VARCHAR(10) 
