@@ -1,0 +1,1 @@
+You can create the ER diagram or data model for the employees data using the link https://www.quickdatabasediagrams.com/
