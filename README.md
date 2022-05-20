@@ -7,4 +7,4 @@ To create a Data pipeline using various Big data technologieswhich include the H
 
 ## Data description
 
-The dataset consists of six csv files and are uploaded in the [Data(/Data/)
+The dataset consists of six csv files and are uploaded in the [Data](/_Data_/)
