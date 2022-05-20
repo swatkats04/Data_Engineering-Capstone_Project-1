@@ -47,6 +47,7 @@ Looking at the CSVs data and build an ERD of the tables. The 'ER Diagram' folder
 
 ### Data Analysis
 
-After completing the database , do the required analysis and open the [`Program Files`](/Program Files/) and run the hive.hql to do the anlysis.
+After completing the database , do the required analysis and open the 'Program Files' and run the hive.hql to do the anlysis.
+
 
 
