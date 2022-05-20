@@ -13,7 +13,18 @@ The dataset consists of six csv files and are uploaded in the [`Data`](/Data/) f
 2. employees.csv - Contains all data related to individual employee, such as employee id, name, age, sex, date of hiring, etc.
 3. salaries.csv - Employee salary.
 4. departments.csv - List of various departments in the company.
-5. dept_manager.csv - Speaks which employee manages which department.
+5. dept_manager.csv - Talks about which employee manages which department.
 6. dept_emp.csv - The department to which each employee belongs.
 
+
+## Technology Stack
+
+- MySQL
+- Linux Commands
+- Sqoop
+- HDFS
+- Hive
+- Impala
+- SparkSQL
+- SparkML
 
