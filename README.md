@@ -50,4 +50,7 @@ Looking at the CSVs data and build an ERD of the tables. The 'ER Diagram' folder
 After completing the database , do the required analysis and open the 'Program Files' and run the hive.hql to do the anlysis.
 
 
-
+### File Execution
+1. mysql.sql file
+2. sqoop file
+3. hive.hql
