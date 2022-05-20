@@ -41,3 +41,4 @@ The data is initially present in the form csv, then imports the CSVs into a SQL 
 Looking at the CSVs data and build an ERD of the tables. The [`ER Diagram`](/ER Diagram/) folder contains the ER diagram and the schema code to build it.
 
 
+
