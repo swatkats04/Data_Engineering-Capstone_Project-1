@@ -137,3 +137,30 @@ group by t1.title ;
 --sns.barplot(x='title' , y='avg(salary)', data = spark.sql("select t.title, avg(s.salary) from employees e inner join titles t on e.emp_title_id = t.title_id inner join salaries s on e.emp_no = s.emp_no group by t.title").toPandas() )
 --plt.show()
 -->using pandas dataframe with spark.sql we can plot the Barplot
+
+--Average salary of employees based on gender.
+select employees.sex as gender, avg(salaries.salary) as average_salary from employees 
+join salaries 
+on employees.emp_no = salaries.emp_no 
+group by employees.sex;
+
+--Number of employees according to desingnation.
+SELECT titles.title, COUNT(employees.emp_no)  FROM titles 
+JOIN employees 
+ON titles.title_id = employees.emp_title_id 
+GROUP BY(titles.title);
+
+--Gender distribution of employees
+SELECT sex as gender , COUNT(emp_no) FROM employees GROUP BY sex;
+
+--Count of employees based on their performance rating.
+SELECT Last_performance_rating , COUNT(emp_no) FROM employees  Group BY last_performance_rating;
+
+
+--Highest paid employees in the organization.
+select employees.first_name, employees.last_name, sum(salaries.salary)
+from employees 
+left join salaries 
+on employees.emp_no = salaries.emp_no 
+group by employees.first_name, employees.last_name 
+order by sum(salaries.salary) desc;
